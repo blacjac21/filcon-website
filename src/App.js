@@ -4,6 +4,7 @@ import { Container } from '@mui/system';
 import { useEffect } from 'react';
 import { ThemeProvider } from '@mui/system';
 import mytheme from './styles/theme';
+import Appbar from './components/appbar';
 
 function App() {
 
@@ -11,9 +12,10 @@ function App() {
     document.title = "Filcon - Home";
   },[]);
   
+ 
   {
     /*
-    AppBar
+    
     Carousel
     Promotions
     title
@@ -28,6 +30,7 @@ function App() {
   return (
     <ThemeProvider theme={mytheme}>
 <Container maxWidth="xl">
+<Appbar/>
       <Button variant='contained'>Test1</Button>
       </Container>
       
