@@ -4,7 +4,7 @@ import { Container } from '@mui/system';
 import { useEffect } from 'react';
 import { ThemeProvider } from '@mui/system';
 import mytheme from './styles/theme';
-import Appbar from './components/appbar';
+
 
 function App() {
 
@@ -29,8 +29,8 @@ function App() {
 
   return (
     <ThemeProvider theme={mytheme}>
-<Container maxWidth="xl">
-<Appbar/>
+<Container >
+
      
       </Container>
       
