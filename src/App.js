@@ -4,6 +4,7 @@ import { Container } from '@mui/system';
 import { useEffect } from 'react';
 import { ThemeProvider } from '@mui/system';
 import mytheme from './styles/theme';
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -29,10 +30,11 @@ function App() {
 
   return (
     <ThemeProvider theme={mytheme}>
-<Container >
+    
+    <Navbar />
 
      
-      </Container>
+      
       
     </ThemeProvider>
   
