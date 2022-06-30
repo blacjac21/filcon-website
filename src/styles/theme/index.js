@@ -32,6 +32,7 @@ export const Colors = {
             main: Colors.secondary
         }
     }
+   
   }) ;
   
   export default mytheme;

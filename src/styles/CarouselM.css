@@ -1,0 +1,17 @@
+
+@media screen and (max-width: 480px){
+  .sliderimg{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .sliderimg{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover
+  }
+}
+
