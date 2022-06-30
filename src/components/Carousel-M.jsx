@@ -1,9 +1,9 @@
 import React from "react";
 
-const Navbar = () => {
+const CarouselM = () => {
     return (
         <div>NavBar</div>
     )
 }
 
-export default Navbar
+export default CarouselM

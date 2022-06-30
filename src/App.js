@@ -4,7 +4,8 @@ import { Container } from '@mui/system';
 import { useEffect } from 'react';
 import { ThemeProvider } from '@mui/system';
 import mytheme from './styles/theme';
-import Navbar from './components/Navbar';
+import NavbarM from './components/Navbar-M';
+import CarouselM from './components/Carousel-M';
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
   return (
     <ThemeProvider theme={mytheme}>
     
-    <Navbar />
+    <NavbarM />
+    <CarouselM />
 
      
       

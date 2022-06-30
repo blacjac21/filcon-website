@@ -40,7 +40,7 @@ const Ham = styled(MenuRounded)({
 })
 
 
-const Navbar = () => {
+const NavbarM = () => {
     return (
         <AppBar position="static">
             <StyledToolbar>
@@ -55,7 +55,7 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default NavbarM
 
 
 
