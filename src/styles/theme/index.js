@@ -21,6 +21,7 @@ export const Colors = {
     ///////////////
     white: "#fff",
     black: "#000",
+    silver: "#f2f3f4"
   };
 
   const mytheme = createTheme({

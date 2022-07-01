@@ -5,30 +5,38 @@ import { Colors } from "../styles/theme";
 import { Box } from "@mui/material";
 
 
-const Tex = styled(Typography)({
-    color: Colors.white,
+const TexHead = styled(Typography)({
+    color: Colors.secondary,
     fontFamily: '"Montserrat", "sans-serif" ',
     fontStyle: "italic",
     fontWeight: "600",
-    
-    padding: "0.75em 0.5em 0.5em"
-    
-    
+    fontSize: "1.2em",
+    padding: "0.5em 0.5em 0.1em"    
 })
 
+const TexBody = styled(Typography)({
+    color: Colors.secondary,
+    fontFamily: '"Montserrat", "sans-serif" ',
+    fontWeight: "600",
+    fontSize: "0.75em",
+    padding: "0.1em 0.25em 0.3em"    
+})
+
+
 const TexCard = styled(Paper)({
-    height:  '10vh' ,
+    height:  '17vh' ,
     width: '90%' ,
     flexGrow: 1,
     textAlign: "center",
-    backgroundColor: Colors.secondary
+    backgroundColor: Colors.silver,
+    
 })
 
 const TexBox = styled(Box)({
     display: "flex",
     justifyContent: "center", 
     alignItems: "center",
-    padding: "0.5em 0.75em 0em "
+    padding: "0.5em 0.75em 0em"
 
 })
 
@@ -38,7 +46,8 @@ const MaintextM = () => {
         <TexBox>
         
         <TexCard>
-        <Tex>"South India's Largest Filtration Vendor"</Tex>
+        <TexHead>"India's Largest Filtration Provider"</TexHead>
+        <TexBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</TexBody>
         </ TexCard>
         
         </TexBox>
