@@ -6,6 +6,7 @@ import { ThemeProvider } from '@mui/system';
 import mytheme from './styles/theme';
 import NavbarM from './components/Navbar-M';
 import CarouselM from './components/Carousel-M';
+import MaintextM from './components/MainTextM';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
     
     <NavbarM />
     <CarouselM />
+    <MaintextM />
 
      
       
