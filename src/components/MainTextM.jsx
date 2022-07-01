@@ -6,24 +6,29 @@ import { Box } from "@mui/material";
 
 
 const Tex = styled(Typography)({
-    color: Colors.black,
+    color: Colors.white,
     fontFamily: '"Montserrat", "sans-serif" ',
     fontStyle: "italic",
-    fontWeight: "300",
+    fontWeight: "600",
     
+    padding: "0.75em 0.5em 0.5em"
     
     
 })
 
-const TexBox = styled(Paper)({
-    height:  '2.5em' ,
+const TexCard = styled(Paper)({
+    height:  '10vh' ,
     width: '90%' ,
     flexGrow: 1,
     textAlign: "center",
-    
-   
-          
-          
+    backgroundColor: Colors.secondary
+})
+
+const TexBox = styled(Box)({
+    display: "flex",
+    justifyContent: "center", 
+    alignItems: "center",
+    padding: "0.5em 0.75em 0em "
 
 })
 
@@ -31,7 +36,11 @@ const TexBox = styled(Paper)({
 const MaintextM = () => {
     return (
         <TexBox>
+        
+        <TexCard>
         <Tex>"South India's Largest Filtration Vendor"</Tex>
+        </ TexCard>
+        
         </TexBox>
     )
 }
