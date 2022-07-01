@@ -29,6 +29,7 @@ const TexCard = styled(Paper)({
     flexGrow: 1,
     textAlign: "center",
     backgroundColor: Colors.silver,
+    boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"
     
 })
 
@@ -36,8 +37,8 @@ const TexBox = styled(Box)({
     display: "flex",
     justifyContent: "center", 
     alignItems: "center",
-    padding: "0.5em 0.75em 0em"
-
+    padding: "0.5em 0.75em 0em",
+    
 })
 
 
