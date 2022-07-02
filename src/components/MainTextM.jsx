@@ -10,21 +10,21 @@ const TexHead = styled(Typography)({
     fontFamily: '"Montserrat", "sans-serif" ',
     fontStyle: "italic",
     fontWeight: "600",
-    fontSize: "1.2em",
-    padding: "0.75em 0.5em 0.1em"    
+    fontSize: "1.4em",
+    padding: "1.25em 0.5em 0.5em"    
 })
 
 const TexBody = styled(Typography)({
     color: Colors.secondary,
     fontFamily: '"Montserrat", "sans-serif" ',
     fontWeight: "600",
-    fontSize: "0.75em",
-    padding: "0.5em 0.5em 0.3em"    
+    fontSize: "0.8em",
+    padding: "0.5em 1em 0.3em"    
 })
 
 
 const TexCard = styled(Paper)({
-    height:  '19vh' ,
+    height:  '27vh' ,
     width: '90%' ,
     flexGrow: 1,
     textAlign: "center",
