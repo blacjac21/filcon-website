@@ -8,6 +8,7 @@ import NavbarM from './components/Navbar-M';
 import CarouselM from './components/Carousel-M';
 import MaintextM from './components/MainTextM';
 import OurClientsM from './components/OurClientsM';
+import ProductsM from './components/ProductsM';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
     <CarouselM />
     <MaintextM />
     <OurClientsM />
+    <ProductsM />
      
       
       
